@@ -4,10 +4,10 @@
     <name>Simple UIKit</name>
     <version>1.0</version>
     <creationDate>20/05/2017</creationDate>
-    <author>Tony Partridge</author>
+    <author>Tony Partridge and Carlos Cámara</author>
     <authorEmail>admin@joomla.org</authorEmail>
-    <copyright>Copyright (C) 2005 - 2017 Open Source Matters, Inc. All rights reserved.</copyright>
-    <description>Basic template using UIKit2. Positions need to be set.</description>
+    <copyright>Copyright (C) 2005 - 2017 Tony Partridge and Carlos Cámara. All rights reserved.</copyright>
+    <description>Basic template using UIKit2.</description>
     <files>
         <filename>component.php</filename>
         <filename>error.php</filename>
@@ -18,16 +18,28 @@
         <filename>template_preview.png</filename>
         <filename>template_thumbnail.png</filename>
         <filename>bower.json</filename>
+    </files>
+    <folders>
         <folder>css</folder>
         <folder>html</folder>
+        <folder>fonts</folder>
         <folder>images</folder>
         <folder>img</folder>
         <folder>js</folder>
         <folder>language</folder>
         <folder>less</folder>
         <folder>scss</folder>
-    </files>
+    </folders>
     <positions>
+        <position>header</position>
+        <position>top</position>
+        <position>maintop</position>
+        <position>mainmiddle</position>
+	<position>mainbottom</position>
+        <position>mainleft</position>
+        <position>mainright</position>
+        <position>bottom</position>
+        <position>footer</position>
         <position>debug</position>
     </positions>
     <config>
