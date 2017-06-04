@@ -4,7 +4,7 @@
  * @subpackage
  *
  * @copyright   A copyright
- * @license     A "Slug" license name e.g. GPL2
+ * @license     General Public License Version 2 or higher - GPL2
  */
 
 defined('_JEXEC') or die;
